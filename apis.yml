@@ -1,9 +1,31 @@
 aid: hermeus
 name: Hermeus
-description: Hermeus is a company surfaced as a portfolio company of canaan-partners, khosla-ventures
-  and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the
-  enrichment pipeline.
+description: >-
+  Hermeus is an American aerospace and defense company building rapidly reusable
+  high-Mach and hypersonic aircraft for national-security missions in partnership
+  with the U.S. Department of Defense. Founded in 2018 and headquartered in
+  Atlanta, Georgia, the company applies a hardware-rich, rapid design-build-test
+  approach to move quickly from concept to flight. Its programs include
+  Quarterhorse, a reusable high-speed flight-test aircraft; Darkhorse, a
+  multi-mission reusable hypersonic uncrewed aerial system (UAS); and Chimera, a
+  hybrid turbine-based combined-cycle engine that transitions from turbojet
+  takeoff through supersonic flight into hypersonic acceleration. Hermeus is a
+  hardware manufacturer with no public developer API, SDK, or documentation
+  surface; this profile tracks the company's public web, security, and corporate
+  properties in the API Evangelist network.
 url: https://raw.githubusercontent.com/api-evangelist/hermeus/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: http://static1.squarespace.com/static/6068d7e274bb870d758315f9/t/68c1afa28c435b345f811d5e/1757523874690/_A6A8512.jpg?format=1500w
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -13,9 +35,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Aerospace
+- Defense
+- Hypersonic
+- Aviation
+- Manufacturing
+- Hardware
+- National Security
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +52,22 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/hermeus-domain-security.yml
 - type: Website
   url: https://www.hermeus.com/
+- type: About
+  url: https://www.hermeus.com/about
+- type: Blog
+  url: https://www.hermeus.com/newsroom
+- type: Careers
+  url: https://www.hermeus.com/careers
+- type: PrivacyPolicy
+  url: https://www.hermeus.com/hermeus-privacy-policy
+- type: TermsOfService
+  url: https://www.hermeus.com/hermeus-general-purchasing-terms-1
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
